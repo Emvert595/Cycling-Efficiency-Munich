@@ -42,8 +42,9 @@ var lyr_Routes_2 = new ol.layer.Vector({
                 style: style_Routes_2,
                 popuplayertitle: 'Routes',
                 interactive: true,
-    title: 'Routes<br />\
-    <img src="styles/legend/Routes_2_0.png" /> 0 - 1<br />'
+    title: 'Route with accumulated delays<br /><br />\
+    <img src="styles/legend/slice1.png"/>'
+            
         });
 var format_dissolved_segments_3 = new ol.format.GeoJSON();
 var features_dissolved_segments_3 = format_dissolved_segments_3.readFeatures(json_dissolved_segments_3, 
@@ -57,12 +58,10 @@ var lyr_dissolved_segments_3 = new ol.layer.Vector({
                 source:jsonSource_dissolved_segments_3, 
                 style: style_dissolved_segments_3,
                 popuplayertitle: 'dissolved_segments',
-                interactive: false,
-                title: '<img src="styles/legend/dissolved_segments_3.png" /> dissolved_segments'
+                interactive: false
             });
 
         var lyr_Positronlabelsonly_4 = new ol.layer.Tile({
-            'title': 'Positron [labels only]',
             'opacity': 1.000000,
             
             
@@ -84,7 +83,7 @@ var lyr_Trafficlights_5 = new ol.layer.Vector({
                 style: style_Trafficlights_5,
                 popuplayertitle: 'Traffic lights',
                 interactive: false,
-                title: '<img src="styles/legend/Trafficlights_5.png" /> Traffic lights'
+                title: '<img src="styles/legend/Trafficlights_5.png" /> Traffic light'
             });
 var format_Homeaddress_6 = new ol.format.GeoJSON();
 var features_Homeaddress_6 = format_Homeaddress_6.readFeatures(json_Homeaddress_6, 
@@ -118,7 +117,7 @@ var lyr_TUM_7 = new ol.layer.Vector({
                 style: style_TUM_7,
                 popuplayertitle: 'TUM',
                 interactive: false,
-                title: '<img src="styles/legend/TUM_7.png" /> TUM'
+                title: '<img src="styles/legend/TUM_7.png" /> TUM [Starting point]'
             });
 var group_ = new ol.layer.Group({
                                 layers: [],
