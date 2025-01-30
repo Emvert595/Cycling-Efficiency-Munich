@@ -43,7 +43,7 @@ var lyr_Routes_2 = new ol.layer.Vector({
                 popuplayertitle: 'Routes',
                 interactive: true,
     title: 'Routes<br />\
-    <img src="styles/legend/Routes_2_0.png" /> 0 - 1<br />
+    <img src="styles/legend/Routes_2_0.png" /> 0 - 1<br />'
         });
 var format_dissolved_segments_3 = new ol.format.GeoJSON();
 var features_dissolved_segments_3 = format_dissolved_segments_3.readFeatures(json_dissolved_segments_3, 
