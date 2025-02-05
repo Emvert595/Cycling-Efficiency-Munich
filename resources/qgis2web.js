@@ -468,13 +468,13 @@ var Abstract = new ol.control.Control({
             window.showAbstract = function() {
                 linkElement.classList.remove("project-abstract");
                 linkElement.classList.add("project-abstract-uncollapsed");
-                linkElement.innerHTML = 'This map illustrates the additional travel time experienced by the 14th MSc Cartography intake due to traffic lights on their cycling route from TUM to home. Their individual paths through Munich, along with the traffic lights they encounter, are shown. Click on the segments and homes for more details!';
+                linkElement.innerHTML = 'This map illustrates the additional travel time experienced by the 14th MSc Cartography intake due to traffic lights on their cycling route from TUM to home. Their individual paths through Munich, along with the traffic lights they encounter, are shown. Click on the segments and homes for more details! Disclaimer: Individual names and house numbers have been removed from segments and houses for privacy reasons.';
             }
 
             hideAbstract();
         } else {
             linkElement.classList.add("project-abstract-uncollapsed");
-            linkElement.innerHTML = 'This map illustrates the additional travel time experienced by the 14th MSc Cartography intake due to traffic lights on their cycling route from TUM to home. Their individual paths through Munich, along with the traffic lights they encounter, are shown. Click on the segments and homes for more details!';
+            linkElement.innerHTML = 'This map illustrates the additional travel time experienced by the 14th MSc Cartography intake due to traffic lights on their cycling route from TUM to home. Their individual paths through Munich, along with the traffic lights they encounter, are shown. Click on the segments and homes for more details! Disclaimer: Individual names and house numbers have been removed from segments and houses for privacy reasons.';
         }
 
         titleElement.appendChild(linkElement);
